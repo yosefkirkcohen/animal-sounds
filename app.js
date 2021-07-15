@@ -13,6 +13,12 @@ console.log(horseEl)
 horseEl.addEventListener('click', () => {
   horseSound.play();
 })
+dogEl.addEventListener('click', () => {
+  dogSound.play();
+})
+catEl.addEventListener('click', () => {
+  catSound.play();
+})
   // get user input
   // use user input to update state 
   // update DOM to reflect the new state
